@@ -31,4 +31,4 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-Open your web browser and navigate to http://localhost:8000/. You should see the [FastAPI documentation](https://fastapi.tiangolo.com/tutorial/) page.
+4. Open your web browser and navigate to http://localhost:8000/. You should see the [FastAPI documentation](https://fastapi.tiangolo.com/tutorial/) page.
