@@ -28,7 +28,7 @@ pip install -r requirements.txt
 3. Start the server:
 
 ```bash
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 
 4. Open your web browser and navigate to http://localhost:8000/. You should see the [FastAPI documentation](https://fastapi.tiangolo.com/tutorial/) page.
