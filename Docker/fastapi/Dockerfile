@@ -1,11 +1,11 @@
 FROM python:3.10-alpine
 
-WORKDIR /app
+WORKDIR /usr/app
 
-COPY ./requirements.txt /app/requirements.txt
+COPY ../../requirements.txt .
 
 RUN pip install -r requirements.txt
 
-COPY ./src /app/src
+COPY ../../src/ ./src/
 
-CMD ["uvicorn", "src.main:app", "--reload", "--host", "0.0.0.0"]
+CMD ["python", "./src/main.py"]
